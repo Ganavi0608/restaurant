@@ -136,7 +136,7 @@ export default function Menu() {
             <div><img className ="w-[400px] ml-[200px] hidden md:block mt-[125px]" src="https://restan-nextjs.vercel.app/_next/image?url=%2Fassets%2Fimg%2Fillustration%2F11.png&w=1920&q=75"/></div>
             </div>
           </div> */}
-          <menu/>
+          <Menu/>
           <Footer/>
           </div>
           </div>
