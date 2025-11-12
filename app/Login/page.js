@@ -14,8 +14,8 @@ export default function LoginPage(){
         <div className="flex flex-col h-[500px] w-[500px] md:ml-[100px] mt-[76px] gap-5">
           <div className ="font-bold text-3xl text-[#7f7f08]">WELCOME BACK</div>
           <div className = "text-sm text-gray-400 ">Enter your Email and Password</div>
-          <div><input className =" md:w-[400px] w-[300px] h-[50px] rounded-md bg-gray-100"placeholder=" Email*" type="email"/></div>
-          <div><input className ="md:w-[400px] w-[300px] h-[50px] rounded-md bg-gray-100"placeholder=" Password*" type="password"/></div>
+          <div><input className =" md:w-[400px] w-[300px] h-[50px] rounded-md bg-gray-100 dark:text-gray-800"placeholder=" Email*" type="email"/></div>
+          <div><input className ="md:w-[400px] w-[300px] h-[50px] rounded-md bg-gray-100 dark:text-gray-800"placeholder=" Password*" type="password"/></div>
           <div><button className =" md:w-[400px] w-[300px] h-[50px] rounded-md bg-[#7f7f08] hover:bg-black dark:hover:bg-white hover:text-white dark:hover:text-black font-bold text-white">LOGIN</button></div>
           <div className ="text-2xl md:ml-[125px] ml-[75px] font-semibold dark:text-white">Or Login With</div>
           <div className =" flex md:flex-row flex-col w-[400px] h-[50px] md:justify-around md:items-center md:ml-0 ml-[55px]">
