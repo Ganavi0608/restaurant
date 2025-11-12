@@ -10,7 +10,7 @@ export default function Navbar(){
                     <img className="w-[100px] h-[70px] block dark:hidden" src="https://restan-nextjs.vercel.app/_next/image?url=%2Fassets%2Fimg%2Flogo-2.png&w=1920&q=75"/>
                     <img className="w-[100px] h-[70px] hidden dark:block" src="https://restan-nextjs.vercel.app/_next/image?url=%2Fassets%2Fimg%2Flogo-light.png&w=750&q=75"></img>
                     <div className ="flex flex-row justify-between items-center gap-10">
-                    <div className="hidden md:block font-semibold text-md dark:text-white">Home</div>>
+                    <div className="hidden md:block font-semibold text-md dark:text-white">Home</div>
                     <div onClick={() => router.push("reservation")} className="hidden md:block font-semibold text-md dark:text-white">Reservation</div>
                     <div onClick={() => router.push("/Menu")} className="hidden md:block font-semibold text-md">Menu</div>
                     <div onClick={() => router.push("/Login")} className="hidden md:block font-semibold text-md">Login</div>
