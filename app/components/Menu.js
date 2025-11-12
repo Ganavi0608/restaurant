@@ -3,7 +3,7 @@ import Reservation from './Reservation_table'
 export default function Menu(){
     return(
         <div>
-        <div className ="h-[550px] bg-black my-[60px]">
+        <div className ="h-[550px] bg-black">
             <div className="flex flex-row">
                 <div className ="flex flex-col w-[502px] h-[350px] mt-[100px] md:ml-[200px] ml-[11px]">
                 <div className ="font-semibold text-6xl text-white">30 MINUTES</div>
@@ -22,7 +22,7 @@ export default function Menu(){
         <div className ="bg-zinc-100 dark:bg-zinc-800 hidden md:block  min-h-screen">
 
             <div className ="flex flex-col justify-center items-center">
-            <div className =" text-small text-amber-900 mt-[11px] dark:text-white">~---------HAPPY CUSTOMERS---------~</div>
+            <div className =" text-small text-amber-900 mt-[111px] dark:text-white">~---------HAPPY CUSTOMERS---------~</div>
             <div className ="text-5xl text-black font-semibold dark:text-white">Our Customer Feedbacks</div>
             </div>
             
