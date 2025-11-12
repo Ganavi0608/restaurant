@@ -74,7 +74,7 @@ import Footer from '../components/Footer';
 ];
 
 
-export default function Home() {
+export default function Menu() {
   const [cart, setCart] = useState([]);
   const addtoCart = (menu) => {
     setCart((prev) => [...prev, menu]);

@@ -4,7 +4,7 @@ import { useState } from "react";
 import {useRouter} from 'next/navigation';
 import Section from '../components/Section'
 import Footer from "../components/Footer"
-export default function LoginPage(){
+export default function RegisterPage(){
   const router = useRouter();
   return(
     <div className ="bg-zinc-100 dark:bg-black w-full min-h-screen">
