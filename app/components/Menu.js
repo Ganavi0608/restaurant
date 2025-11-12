@@ -37,7 +37,7 @@ export default function Menu(){
 </div>
 
 <div>
-            <div className = "h-[500px] bg-zinc-900 mt-[50px] mb-[250px]">
+            <div className = "h-[500px] bg-zinc-950 mt-[50px] mb-[250px]">
                 <div className = "h-[500px]  mx-[50px] flex flex-row">
                 <div className ="flex flex-col text-white gap-6 w-1/2 mx-[55px] hidden md:block h-[400px] ">
                 {/* <div className ="flex flex-col text-white gap-6"> */}
