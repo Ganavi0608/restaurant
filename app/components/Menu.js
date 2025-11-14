@@ -41,10 +41,10 @@ export default function Menu(){
                 <div className = "h-[500px]  mx-[50px] flex flex-row">
                 <div className ="flex flex-col text-white gap-6 w-1/2 mx-[55px] hidden md:block h-[400px] ">
                 {/* <div className ="flex flex-col text-white gap-6"> */}
-                    <div className=" text-2xl  font-semibold mt-[90px]">RESERVATION~~~~~~~~~~</div>
+                    <div className=" text-2xl  font-semibold mt-[90px]">RESERVATION----------------</div>
                 <div className="text-5xl font-bold ">Reservation for your Favourite Private Table</div>
-                <div className="text-sm  ">A relaxing and pleasant atmosphere, good jazz, dinner, and cocktails. The Patio Time Bar opens in the center of Florence. The only bar inspired by the 1960s, it will give you a experience that you’ll have a hard time forgetting.</div>
-                <div className ="flex flex-row w-[400px] gap-6 justify-around items-center  h-[90px] ">
+                <div className="text-md mt-[21px] ">A relaxing and pleasant atmosphere, good jazz, dinner, and cocktails. The Patio Time Bar opens in the center of Florence. The only bar inspired by the 1960s, it will give you a experience that you’ll have a hard time forgetting.</div>
+                <div className ="flex flex-row w-[400px] gap-6 justify-around items-center mt-[11px] h-[90px] ">
                     <div className ="flex flex-col ">
                         <div className ="font-semibold text-3xl">Lunch Menu</div>
                         <div className ="text-xl">30+ items</div>
