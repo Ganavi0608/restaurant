@@ -32,7 +32,7 @@ export default function Feedback() {
           key={i}
           className="flex flex-col md:flex-row justify-center items-center gap-10"
         >
-          {/* Left - Image */}
+       
           <div className="relative w-[300px] h-[300px] rounded-[60px] overflow-hidden">
             <Image
               src={t.mainImg}
@@ -40,7 +40,7 @@ export default function Feedback() {
               fill
               className="object-cover"
             />
-            {/* Small overlay avatars */}
+          
             <div className="absolute top-[-20px] right-[-20px] flex flex-col gap-4">
               {t.avatars.map((img, j) => (
                 <div
@@ -59,7 +59,7 @@ export default function Feedback() {
             </div>
           </div>
 
-          {/* Right - Text */}
+        
           <div className="max-w-xl text-left">
             <div className="flex items-center gap-2 mb-3">
               {Array.from({ length: t.rating }).map((_, k) => (
