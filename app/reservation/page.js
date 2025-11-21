@@ -9,7 +9,7 @@ export default function Reservation() {
           <div>
             <Section title="Online Reservation" title1="reservation" /></div>
         <div className="bg-gray-100  flex flex-col md:flex-row justify-center items-start py-12 px-6 md:px-20 md:mt-[200px]">
-      <div className="w-full md:w-1/2 dark:bg-black flex justify-center mt-[200px] ">
+      <div className="w-full md:w-1/2  flex justify-center mt-[200px] ">
         <iframe width="652" height="506" src="https://www.youtube.com/embed/F3zw1Gvn4Mk" title="Mr Fox Restaurant Promo Video" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen>
           alt="Restaurant"
           className="h-[400px] w-full object-cover rounded-lg"
