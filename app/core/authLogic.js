@@ -10,9 +10,7 @@ export async function loginWithEmail(email,password){
     }catch(exception){
         console.log(JSON.stringify(exception))
     }
-    
 }
-
 export async function createAccount(email,password,newpassword){
     try{
         const result =await createUserWithEmailAndPassword(authFeature,email,password,newpassword)
