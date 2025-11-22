@@ -1,10 +1,8 @@
 
 "use client";
 
-import { useRouter } from "next/navigation";
 import Navbar from "./Navbar";
 export default function Hero(){
-    const router = useRouter();
     return(
         <div>
         <Navbar />
