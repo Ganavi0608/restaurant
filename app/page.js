@@ -57,55 +57,56 @@ export default function Home() {
      
 
       <AboutUs />
-      <div className="w-full min-h-screen dark:bg-zinc-800 bg-zinc-100">
-        <div className="flex flex-col justify-center items-center">
-          <div className="text-red-700 mt-[55px]">~-------OUR SPECIAL-------~</div>
-          <div className="text-black dark:text-white text-4xl font-bold">
-            Popular Burgers
-          </div>
-          <div className="flex md:flex-row flex-col justify-around items-center mt-[30px] gap-7 p-4">
-            {food.map((item, index) => (
-              <FoodCard
-                key={index}
-                name={item.name}
-                desc={item.desc}
-                Foodratings={item.Foodratings}
-                foodImg={item.foodImg}
-              />
-            ))}
-          </div>
-        </div>
-      </div>
-      <div className="flex flex-col md:flex-row w-full md:h-[500px] justify-around items-center bg-gray-900 py-10">
-        <div className="relative w-[600px] h-[350px] overflow-hidden rounded-2xl">
-          <img
-            className="rounded-2xl object-cover w-full h-full"
-            src="https://restan-nextjs.vercel.app/_next/image?url=%2Fassets%2Fimg%2Fdeal%2F1.jpg&w=828&q=75"
-            alt="Deal 1"
+  <div>
+      <div className = "w-full min-h-screen dark:bg-zinc-800 bg-zinc-100">
+        <div className="flex flex-col justify-center items-center" >
+          <div className ="text-red-700 mt-[55px]">~-------OUR SPECIAL-------~</div>
+          <div className ="text-black dark:text-white text-4xl font-bold">Popular Burger</div>
+        <div className="flex md:flex-row flex-col  justify-around items-center mt-[30px]  gap-7 p-4">
+      {food.map((item, index) => (
+        <div key={index}>
+          <FoodCard
+            name={item.name}
+            desc={item.desc}
+            Foodratings={item.Foodratings}
+            foodImg={item.foodImg}
           />
-          <div className="absolute inset-0 flex flex-col text-white justify-center bg-black/30">
-            <div className="ml-[70px]">
-              <p className="text-xl">Eat Sleep And</p>
-              <p className="text-5xl font-bold mb-[30px]">DREAM BURGER</p>
-              <Button />
+              </div>
+      )
+      )}
+      </div>
+      </div>
+  
+
+
+
+<div className ="flex flex-row w-full md:h-[500px] min-h-screen justify-around items-center  bg-gray-900 ">
+      <div className ="flex md:flex-row flex-col justify-around items-center gap-10 mx-[22px]">
+        <div className="relative w-[600px] h-[350px]  overflow-hidden ">
+          <img className ="rounded-2xl object-cover hidden md:block" src="https://restan-nextjs.vercel.app/_next/image?url=%2Fassets%2Fimg%2Fdeal%2F1.jpg&w=828&q=75"/>
+          <div className="absolute inset-0 flex flex-col  text-white bg-opacity-40">
+            <div className="text-xl flex flex-col w-[300px] h-[205px] font-thin mt-[50px] ml-[70px]">Eat Sleep And
+            <div className="text-5xl text-white font-bold mb-[30px]">DREAM BURGER</div>
+            <Button></Button>
             </div>
           </div>
-        </div>
-        <div className="relative w-[600px] h-[350px] overflow-hidden rounded-2xl">
-          <img
-            className="rounded-2xl object-cover w-full h-full"
-            src="https://restan-nextjs.vercel.app/_next/image?url=%2Fassets%2Fimg%2Fdeal%2F2.jpg&w=828&q=75"
-            alt="Deal 2"
-          />
-          <div className="absolute inset-0 flex flex-col text-white justify-center bg-black/30">
-            <div className="ml-[70px] md:ml-[340px]">
-              <p className="text-xl">Best Deal Ever</p>
-              <p className="text-5xl font-bold mb-[30px]">LUGAR BURGER</p>
-              <Button />
-            </div>
           </div>
-        </div>
+<div className="relative w-[600px] h-[350px]  overflow-hidden ">
+          <img className ="rounded-2xl object-cover hidden md:block" src="https://restan-nextjs.vercel.app/_next/image?url=%2Fassets%2Fimg%2Fdeal%2F2.jpg&w=828&q=75"/>
+          <div className="absolute inset-0 flex flex-col  text-white bg-opacity-40">
+            <div className="text-xl flex flex-col w-[300px] h-[205px] font-thin mt-[50px] md:ml-[340px] ml-[60px]">Best Deal Ever
+            <div className="text-5xl text-white font-bold mb-[30px]">LUGAR BURGER</div>
+            <Button></Button>
+            </div>
+          </div>    
+          </div>
       </div>
+    </div>
+</div>
+         
+   
+       
+      
       <div className = "mt-[100px]">
       <Popular />
       </div>
