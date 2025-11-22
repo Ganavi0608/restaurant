@@ -1,4 +1,4 @@
-export default function Hero() {
+export default function Combo() {
   return (
     <div className="bg-black text-white py-20 px-6 md:px-20 flex flex-col md:flex-row items-center justify-between">
       <div className="text-left md:w-1/2 space-y-6">
