@@ -57,7 +57,9 @@ export default function Home() {
      
 
       <AboutUs />
-  <div>
+
+
+    <div>
       <div className = "w-full min-h-screen dark:bg-zinc-800 bg-zinc-100">
         <div className="flex flex-col justify-center items-center" >
           <div className ="text-red-700 mt-[55px]">~-------OUR SPECIAL-------~</div>
@@ -71,7 +73,7 @@ export default function Home() {
             Foodratings={item.Foodratings}
             foodImg={item.foodImg}
           />
-              </div>
+        </div>
       )
       )}
       </div>
@@ -103,10 +105,8 @@ export default function Home() {
       </div>
     </div>
 </div>
-         
-   
-       
-      
+
+  
       <div className = "mt-[100px]">
       <Popular />
       </div>
@@ -120,6 +120,6 @@ export default function Home() {
       
       
     </div>
-         </div>
+    </div>
   );
 }
