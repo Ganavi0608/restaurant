@@ -24,13 +24,13 @@ export default function Combo() {
           alt="Burger Combo"
           className="w-80 md:w-[400px] rounded-full"
         />
-        <div className="absolute top-10 left-10 bg-red-600 text-white px-6 py-4 rounded-full w-50 h-50 text-xl font-bold">
+        <div className="hidden md:block absolute top-10 left-10 bg-red-600 text-white px-6 py-4 rounded-full w-50 h-50 text-xl font-bold">
           <span className="text-gray-200 flex items-center justify-center mt-[50px] text-2xl mr-1">$80</span> <span className="text-5xl flex items-center justify-center text-center">$65</span>
         </div>
         <img
           src="https://restan-nextjs.vercel.app/_next/image?url=%2Fassets%2Fimg%2Fillustration%2F13.png&w=640&q=75"
           alt="Fish Dish"
-          className="absolute bottom-0 right-0 w-40 md:w-48 rounded-full"
+          className="absolute bottom-0 right-0 w-40 md:w-48 rounded-full hidden md:block"
         />
       </div>
     </div>
