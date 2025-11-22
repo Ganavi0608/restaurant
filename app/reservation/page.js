@@ -17,8 +17,8 @@ export default function Reservation() {
       </div>
       
 <div className="md:w-1/2 relative w-full mt-10 md:mt-[-40px] md:ml-[-20px] bg-white p-8">
-        <h2 className="text-4xl font-bold mb-8 md:mt-[50px] ml-[60px]">Book A Table</h2>
-        <div className="space-y-6 ml-[60px] h-[500px]">
+        <h2 className="text-4xl font-bold mb-8 md:mt-[50px] ml-[60px] dark:text-black">Book A Table</h2>
+        <div className="space-y-6 ml-[60px] h-[500px] dark:text-black">
 
  
   <p className="text-sm font-light ">Phone</p>
